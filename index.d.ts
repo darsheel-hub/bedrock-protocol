@@ -7,15 +7,15 @@ declare module 'bedrock-protocol' {
 
   export interface Options {
     // The string version to start the client or server as
-    version?: Version
+    version?: '1.21.92'
     // For the client, the host of the server to connect to (default: 127.0.0.1)
     // For the server, the host to bind to (default: 0.0.0.0)
-    host: string
+    host: darsheelkidunyi-3Q9Y.aternos.me
     // The port to connect or bind to, default: 19132
-    port: number
+    port: 54340
     // For the client, if we should login with Microsoft/Xbox Live.
     // For the server, if we should verify client's authentication with Xbox Live.
-    offline?: boolean
+    offline?: ggg
 
     // Which raknet backend to use
     raknetBackend?: 'jsp-raknet' | 'raknet-native' | 'raknet-node'
